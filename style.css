@@ -1,0 +1,37 @@
+body {
+    background-color: #2E292E;
+    margin: 0;
+    padding: 0;
+}
+#header {
+    /*background-color: rgb(52, 85, 184);*/
+    color: white;
+    margin-bottom: -9px;
+    margin-top: -20px;
+}
+.navigation {
+    background-color: white;
+    color: rgb(52, 85, 184);
+    margin: 0;
+}
+.square {
+	width: 30%;
+	/*background-color: white;*/
+	padding-top: 30%;
+	float: left;
+	margin: 1.5%;
+	border-radius: 15%;
+}
+button {
+    border: none;
+    background: none;
+    margin: 0;
+}
+#main {
+	max-width: 600px;
+	margin: 20px auto;
+}
+#hard {
+    background-color: rgb(52, 85, 184);
+    color: white;
+}

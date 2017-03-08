@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Color Game</title>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css" type="text/css" />
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="text-center" id="header">
+                <h1 id="RGBCol">PlaceHolder</h1>
+                <h4>Color Game</h4>
+            </div>
+            <div class="row navigation">
+                <div class="col-md-2 col-md-offset-2">
+                    <button id="newGame" onclick="start()">New Colors</button>
+                </div>
+                <div class="col-md-2 col-md-offset-1 text-center" id="result"></div>
+                <div class="col-md-2 col-md-offset-2">
+                    <button id="easy" onclick="setDiff(this)">Easy</button>
+                    <button id="hard" onclick="setDiff(this)">Hard</button>
+                </div>
+            </div>
+            <div>
+                <div id="main">
+                	<div class="square"></div>
+                	<div class="square"></div>
+                	<div class="square"></div>
+                	<div class="square"></div>
+                	<div class="square"></div>
+                	<div class="square"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="bootstrap/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="cg.js"></script>
+</html>
